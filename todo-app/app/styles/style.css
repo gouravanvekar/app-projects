@@ -1,0 +1,48 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.task-separator{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.active{
+    color: #0000FF;
+}
+
+.complete{
+    text-decoration: line-through;
+    color: #34A853;
+}
+
+.expired{
+    color: #FF0000;
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.trash{
+    text-decoration: line-through;
+    color: #00FF00;
+}
+
+.logo{
+    width: 50%;
+}
+
+.git-button{
+    margin-top: 5px;
+}
+
+.btn-group.dropdown{
+    cursor: pointer;
+}
+
+.block-quote{
+    line-height: 1.8em;
+}
